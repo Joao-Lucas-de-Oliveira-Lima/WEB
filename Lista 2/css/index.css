@@ -1,0 +1,97 @@
+ul.navigation > li > a, .publication{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+ul.navigation > li{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+ul.navigation > li:hover, .publication:hover{
+    background-color: rgb(15, 25, 20, 0.1);
+    border-radius: 10px;
+}
+#edit_profile{
+    border-radius: 10px;
+}
+ul.navigation{
+    list-style: none;
+    padding-left: 0;
+}
+#statistic_1{
+    padding-left: 20px;
+}
+
+a[id*="statistic"]{
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+a[id*="statistic"] span{
+    font-weight: bold;
+    color: rgb(15, 20, 25);
+}
+
+a[id*="statistic"]:hover{
+    text-decoration:underline;
+}
+
+.action{
+    color: rgb(83, 100, 113);
+    padding-top:5px;
+    padding-bottom:5px;
+    text-decoration: none;
+}
+
+#action_1:hover, #action_4:hover{
+    border-radius: 10px;
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+    text-decoration:underline;
+}
+
+#action_2:hover{
+    border-radius: 10px;
+    background-color: rgba(0, 186, 124, 0.1);
+    color:  rgba(0, 186, 124, 1);
+    text-decoration:underline;
+}
+
+#action_3:hover{
+    border-radius: 10px;
+    background-color: rgba(249, 24, 128, 0.1);
+    color:  rgba(249, 24, 128, 1);
+    text-decoration:underline;
+}
+h4[id^="name"], span[id^="name"]{
+    color: rgb(15, 20, 25);
+}
+
+#t_name, #s_t_name{
+    color: rgb(83, 100, 113);
+}
+#biography{
+    color: rgb(15, 20, 25);
+}
+
+.pessoal_info{
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+#pessoal_info_1{
+    padding-left: 20px;
+}
+
+#tzeet_1, #tzeet_2{
+    color: rgb(15, 20, 25);
+}
+
+span[id^="date"]{
+    color: rgb(83, 100, 113);
+}
+
+#tzeet_1:hover, #tzeet_2:hover{
+    background-color: rgba(249, 24, 128, 0.1);
+}
