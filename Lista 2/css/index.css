@@ -3,7 +3,7 @@ ul.navigation > li > a, .publication{
     text-decoration: none;
 }
 
-ul.navigation > li{
+.navigation li:nth-child(2n+1){
     padding-top:5px;
     padding-bottom:5px;
 }
