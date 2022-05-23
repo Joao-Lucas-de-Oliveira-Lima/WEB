@@ -4,8 +4,8 @@ ul.navigation > li > a, .publication{
 }
 
 .navigation li:nth-child(2n+1){
-    padding-top:5px;
-    padding-bottom:5px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 ul.navigation > li:hover, .publication:hover{
@@ -90,6 +90,11 @@ h4[id^="name"], span[id^="name"]{
 
 span[id^="date"]{
     color: rgb(83, 100, 113);
+}
+
+#tzeet_1, #tzeet_2{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #tzeet_1:hover, #tzeet_2:hover{
