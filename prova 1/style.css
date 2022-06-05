@@ -1,0 +1,32 @@
+.travelHistory{
+    border-top: groove;
+    border-bottom: groove;
+    border-right: groove;
+}
+
+#transport, #type, #checkboxLabel, #sendButton{
+    margin-right: 10px;
+
+}
+
+div[id^="tableColumn"]{
+    border-right: groove;
+    flex-grow: 1;
+    margin: 0;
+}
+
+div[id="tableColumn1"]{
+    border-left: groove;
+}
+
+div[id^="tableColumn"] > h4, div[id^="tableColumn"] > h5{
+    border-bottom: groove;
+    flex-grow: 1;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
